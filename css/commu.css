@@ -14,8 +14,13 @@
 }
 
 body {
+  
   font-family: "Roboto", sans-serif;
 }
+.header{
+  height: 8vh;
+}
+
 
 .headja {
   background: url(pic/pexels-photo-691668.jpeg);
@@ -24,6 +29,7 @@ body {
   background-size: cover;
   min-height: 100vh;
   display: flex;
+  
   
 }
 
@@ -34,6 +40,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10rem;
+  
 }
 
 .container__left h1 {

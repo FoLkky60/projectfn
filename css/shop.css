@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 *{
@@ -267,6 +268,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin-left:  30px;
     border-radius: 3px;
     transition: 0.3s linear;
+
 }
 .welcome-hero-btn:hover{/*background: #fd4043;*/background: #f43032;}
 

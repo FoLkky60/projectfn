@@ -10,26 +10,34 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Logo</a>
+        <!-- <a href="#" class="logo">Logo</a> -->
         
    
 
         <nav class="navigation">
+            <a href="#" class="logo">Logo</a>
             
             <a href="web.html">Home</a>
             <a href="manu.html">Manu</a>
             <a href="create.html">Create</a>
             <a href="commu.html">commu</a>
-        
-            <a href="login.html" class="btnlogin-popup">Login</a>
+<!--         
+            <a href="login.html" class="btnlogin-popup">Login</a> -->
+            
 
         </nav>
+        <div class="log">
+          
+            <a href="login.html" class="btnlogin-popup">Login</a>
+             
+        </div>
+       
         
    
     </header>
 
 
-    
+<div class="main_containers">
     <form class="form-container" enctype='multipart/form-data'>
         <div class="upload-files-container">
             <div class="drag-file-area">
@@ -45,7 +53,52 @@
             </div>
             <button type="button" class="upload-button"> Upload </button>
         </div>
+        
     </form>
-    <script src="create.js"></script>
+
+    <form class="form_detail" enctype='multipart/form-data'>
+        
+        <div class="upload_detail_container">
+            <h2>Detail picture</h2>
+            <div class="box_input">
+                <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </span>
+                <input type="name">
+                <label>Name</label>
+            </div>
+            <div class="box_input">
+                <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </span>
+                <input type="detail">
+                <label>Detail</label>
+            </div>
+            <div class="box_input">
+                <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </span>
+                <input type="price">
+                <label>price</label>
+            </div>
+            <div class="type_input">
+                <span class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </span>
+            </div>
+            <div class="box_input">
+                <input type="type">
+                <label>type</label>
+            </div>
+            <button type="submit" class="submit_detail">Submit</button>
+        </div>
+       
+
+    </form>
+</div>
+   
+    
+    
+    <script src="js/create.js"></script>
 </body>
 </html>

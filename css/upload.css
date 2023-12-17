@@ -7,6 +7,9 @@ body{
 *{
     box-sizing: border-box;
 }
+.header{
+    height: 8vh;
+  }
 svg:not(:root) {
     overflow: hidden;
 }
@@ -28,7 +31,7 @@ svg:not(:root) {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 40px auto 0;
+  
     position: relative;
     cursor: pointer;
     background-color: #bcaef5;
